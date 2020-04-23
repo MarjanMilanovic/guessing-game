@@ -18,6 +18,7 @@ def main():
                 print("That number is to high.")
                 user_input = float(input())
         print(f"The number I was thinking about is: {num}.")
+        
     except ValueError:
         print(f"{user_input} is not a number.\nWould you like to start again?")
         user_input = input()
